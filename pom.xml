@@ -250,6 +250,16 @@
     </profiles>
 
     <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Release Distribution Repository</name>
+            <url>http://172.16.202.50:8090/nexus-webapp-1.9.2.4/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Snapshot Distribution Repository</name>
+            <url>http://172.16.202.50:8090/nexus-webapp-1.9.2.4/content/repositories/snapshots/</url>
+        </snapshotRepository>
         <site>
             <id>storm.maven.website</id>
             <name>Storm Website</name>
