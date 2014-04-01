@@ -27,7 +27,7 @@
 
     <groupId>org.apache.storm</groupId>
     <artifactId>storm</artifactId>
-    <version>0.9.1-incubating-zk345-SNAPSHOT</version>
+    <version>0.9.1-incubating-zk345</version>
     <packaging>pom</packaging>
     <name>Storm</name>
     <description>Distributed and fault-tolerant realtime computation</description>
@@ -135,7 +135,7 @@
     <scm>
 		<connection>scm:git:git://github.com/Teacups/incubator-storm.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/Teacups/incubator-storm.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>0.9.1-incubating-zk345</tag>
 		<url>https://github.com/Teacups/incubator-storm</url>
     </scm>
 
